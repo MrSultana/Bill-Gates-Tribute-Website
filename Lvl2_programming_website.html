@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Fix the indentation!!!! -->
+    <!--THis block of code defines the metadata for the page. The "viewport" defines how the websites displays
+    to different device screens-->
+    <meta name="description" content="A website about why I admire Bill Gates">
+    <meta name="keywords" content="bill, gates, microsoft">
+    <meta name="author" content="Ethan Turnhout">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0"> <!-- This is to do with the mobile-first system, and the viewport, or the users screen -->
+    <meta chatset="UTF-8">
+    <title>Bill Gates - A Short Description</title>
+    <link rel="stylesheet" href="css/stylesheetlvl2.css">
+    <link rel='icon' type='favicon.ico' href="images/favicon.ico">
+  </head>
+  <body>
+    <header>
+      <h1>Bill Gates - Tribute Website</h1>
+    </header>
+    
+    <nav>
+      <div class=navbar>
+        <ul>
+          <li><a href="https://www.gatesnotes.com/" class="button">Official Bill Gates Website</a></li>
+          <li><a href="https://www.microsoft.com/en-nz" class="button">Microsoft NZ</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <section class="section">
+      <div class="body-text">
+        <p>William Henry Gates III was born on October the 28th, 1955, and is famous for being the co-founder of Microsoft, a leader in software and technology development. 
+          He is also the co-founder of the "Bill and Melinda Gates Foundation", founded by both him and his wife, Melinda Gates. 
+          I personally admire Bill Gates, not just because of his dedication and success to the personal computing and technology field, 
+          but also because of the enormous amount of money him and his wife donate to various charities and causes. He has donated to various charities, 
+          such as UNICEF, and more recently the Bill and Melinda Gates foundation have announced that they will donate up to $100 million to help with the 
+          efforts to combat the new coronavirus outbreak sweeping the world.</p>
+      </div>
+    </section>
+          
+    <article class="article">
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 2</div>
+        <img src="images/billgates1.jpg" style="width:100%">
+        <!--<div class="text">Bill Gates Pic 1</div>-->
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 2</div>
+        <img src="images/billgates2.jpg" style="width:100%">
+        <!--<div class="text">Bill Gates Pic 2</div>-->
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+  </article>
+
+  <footer class="footer">
+    
+  </footer>
+
+    <!-- Slideshow JS code -->
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      // Next/previous controls
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      // Thumbnail image controls
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+      }
+
+    </script>
+  </body>
+</html>
