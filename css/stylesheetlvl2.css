@@ -16,6 +16,10 @@ body    {
     padding:0px;
     background-color:
 }
+h2   {
+  font-family: "Segour UI", "Book Antiqua", Palantino, serif;
+  font-size:40px;
+}
 
 .body-text  {
   margin-left: 8%;
@@ -65,9 +69,18 @@ nav ul li	{
     padding-left:50px;
     padding-right:50px;
 }
-.article    {
+.article1    {
     float:center;
     padding-bottom:7px;
+    padding-top:7px;
+}
+.article2 {
+  text-align:center;
+  width:100%;
+  word-wrap:break-word;
+  padding-left:50px;
+  padding-right:50px;
+  padding-bottom:10px;
 }
 
 .button  {
