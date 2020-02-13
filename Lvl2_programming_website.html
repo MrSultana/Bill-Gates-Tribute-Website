@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Fix the indentation!!!! -->
-    <!--THis block of code defines the metadata for the page. The "viewport" defines how the websites displays
+    <!--This block of code defines the metadata for the page. The "viewport" defines how the websites displays
     to different device screens-->
     <meta name="description" content="A website about why I admire Bill Gates">
     <meta name="keywords" content="bill, gates, microsoft">
@@ -10,23 +9,28 @@
     <meta name="viewport" content="width=device-width, intial-scale=1.0"> <!-- This is to do with the mobile-first system, and the viewport, or the users screen -->
     <meta chatset="UTF-8">
     <title>Bill Gates - A Short Description</title>
+    <!--This is the code that links to my external CSS style sheet-->
     <link rel="stylesheet" href="css/stylesheetlvl2.css">
+    <!--This is the code that links to my favicon (tab icon)-->
     <link rel='icon' type='favicon.ico' href="images/favicon.ico">
   </head>
   <body>
+    <!--This is the header at the top of the page-->
     <header>
-      <h1>Bill Gates - Tribute Website</h1>
+      <h1><span style="color:#F25022;">Bill</span> <span style="color:#7FBA00;">Gates -</span> <span style="color:#00A4EF;">Tribute</span> <span style="color:#FFB900;">Website</span></h1>
     </header>
     
+    <!--This is my navbar, which is a bar under the header that stretched across the screen, and contains links to external websites-->
     <nav>
       <div class=navbar>
         <ul>
-          <li><a href="https://www.gatesnotes.com/" class="button">Official Bill Gates Website</a></li>
-          <li><a href="https://www.microsoft.com/en-nz" class="button">Microsoft NZ</a></li>
+          <li><a href="https://www.gatesnotes.com/" class="button">Click here to go to Bill Gates Official Website</a></li>
+          <li><a href="https://www.microsoft.com/en-nz" class="button">Click here to go to Microsoft NZ</a></li>
         </ul>
       </div>
     </nav>
     
+    <!--This is my section of body text, which contains the text on who Bill Gates is-->
     <section class="section">
       <h2>Who he is</h2>
         <div class="body-text">
@@ -36,7 +40,8 @@
             and people in need. 
         </div>
     </section>
-          
+    
+    <!--This article tag holds the slideshow, and all its components-->
     <article class="article1">
       <!-- Slideshow container -->
       <div class="slideshow-container">
@@ -65,16 +70,30 @@
       <span class="dot" onclick="currentSlide(1)"></span>
       <span class="dot" onclick="currentSlide(2)"></span>
     </div>
-  </article>
+    </article>
 
-  <article class="article2">
-    <h2>Why I admire him</h2>
-    <div class="body-text">
-      <p>I personally admire Bill Gates for multiple reasons. One is because of the huge contribution he has made to the tech and PC industry with his company micorsoft.
-        I also admire him because of the amazing work him and his wife Melinda Gates had done with the Gates Foundation, in donating to various charities, and causes.
-        The recently donated $100 million to help with efforts to combat the new strain of Coronovirus.</p>
+    <!--This article holds the text on why I admire Bill Gates-->
+    <article class="article2">
+      <h2>Why I admire him</h2>
+      <div class="body-text">
+        <p>I personally admire Bill Gates for multiple reasons. One is because of the huge contribution he has made to the tech and PC industry with his company micorsoft.
+          I also admire him because of the amazing work him and his wife Melinda Gates had done with the Gates Foundation, in donating to various charities, and causes.
+          The recently donated $100 million to help with efforts to combat the new strain of Coronovirus.</p>
+      </div>
+    </article>
+
+    <!--These three divs hold the mini images position under my article text-->
+    <div class="mini-img-1">                   
+      <img src="images/billgatesmini1.jpg" class="mini-img-1"> 
     </div>
-  </article>
+    
+    <div class="mini-img-2">
+      <img src="images/billgatesmini2.jpg" class="mini-img-2">
+    </div>
+    
+    <div class="mini-img-3">
+      <img src="images/billgatesmini3.jpg" class="mini-img-3">
+    </div>
 
     <!-- Slideshow JS code -->
     <script>

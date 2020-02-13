@@ -1,25 +1,51 @@
 /*This stylesheet contains styling for my lvl 2 programming website*/
 header  {
-    text-align:center;
-    font-size:30px;
-    font-family: "Segoe UI", "Book Antiqua", Palatino, serif;
+  text-align:center;
+  font-size:30px;
+  font-family:"Segoe UI", "Book Antiqua", Palatino, serif;
 }
 a   {
-    font-family: "Segoe UI", "Book Antiqua", Palatino, serif;
+  font-family: "Segoe UI", "Book Antiqua", Palatino, serif;
 }
 p   {
-    font-family: "Segoe UI", "Book Antiqua", Palantino, serif;
-    font-size:17px;
+  font-family: "Segoe UI", "Book Antiqua", Palantino, serif;
+  font-size:17px;
 }
 body    {
-    margin:0px;
-    padding:0px;
+  margin:0px;
+  padding:0px;
 }
 h2   {
-  font-family: "Segour UI", "Book Antiqua", Palantino, serif;
+  font-family: "Segoe UI", "Book Antiqua", Palantino, serif;
   font-size:40px;
 }
-
+.mini-img-1 {
+  display: inline-block;
+  padding-left:15%;
+  padding-right:1%;
+  padding-top:2%;
+  padding-bottom: 10%;
+  width:227px;
+  height:233px;
+}
+.mini-img-2 {
+  display: inline-block;
+  padding-left:26%;
+  padding-right:1%;
+  padding-top:2%;
+  padding-bottom: 10%;
+  width:227px;
+  height:233px;
+}
+.mini-img-3 {
+  display: inline-block;
+  padding-left: 27%;
+  padding-right: 27%;
+  padding-top:2%;
+  padding-bottom: 10%;
+  width: 227px;
+  height: 233px;
+}
 .body-text  {
   margin-left: 8%;
   margin-right: 8%;
@@ -132,14 +158,14 @@ nav ul li	{
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+  border-radius: 20%;
   user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
+  border-radius: 20%;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -171,11 +197,11 @@ nav ul li	{
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 15px;
+  height: 3px;
   width: 20px;
   margin: 0 2px;
   background-color: #bbb;
-  border-radius: 30%;
+  border-radius: 0%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
