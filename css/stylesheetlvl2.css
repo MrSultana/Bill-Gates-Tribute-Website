@@ -61,28 +61,28 @@ h2   {
   text-align: justify;
 }
 .img1   {
-    width:485px;
-    height:361.25px;
-    padding-left:20px;
-    padding-right:10px;
-    padding-bottom:20px;
-    padding-top:20px;
+  width:485px;
+  height:361.25px;
+  padding-left:20px;
+  padding-right:10px;
+  padding-bottom:20px;
+  padding-top:20px;
   
 }
 .img2   {
-    width:616.25px;
-    height:360px;
-    padding-right:20px;
-    padding-left:10px;
-    padding-bottom:20px;
-    padding-top:20px;
+  width:616.25px;
+  height:360px;
+  padding-right:20px;
+  padding-left:10px;
+  padding-bottom:20px;
+  padding-top:20px;
   
 }
 .navbar {
-    width:100%;
-    background-color:#c8c8c8;
-    margin:0 auto;
-    /*box-shadow:1px 1px 5px;*/
+  width:100%;
+  background-color:#c8c8c8;
+  margin:0 auto;
+  box-shadow:1px 1px 5px;
 }
 nav ul	{
   text-align:center;
@@ -97,16 +97,16 @@ nav ul li	{
   display:inline-block;
 }
 .section    {
-    text-align:center;
-    width:100%;
-    word-wrap:break-word;
-    padding-left:50px;
-    padding-right:50px;
+  text-align:center;
+  width:100%;
+  word-wrap:break-word;
+  padding-left:50px;
+  padding-right:50px;
 }
 .article1    {
-    float:center;
-    padding-bottom:7px;
-    padding-top:7px;
+  float:center;
+  padding-bottom:7px;
+  padding-top:7px;
 }
 .article2 {
   text-align:center;
@@ -118,24 +118,25 @@ nav ul li	{
 }
 
 .button  {
-    font-family: "Segoe UI", "Book Antiqua", Palatino, serif;
-    text-decoration: none;
-    color:black;
-    border:none;
-    cursor:pointer;
-    font-size:20px;
-    padding-top:5px;
-    padding-bottom:5px;
-    padding-left:5px;
-    padding-right:5px;
-    -webkit-transition-duration: 0.4s;
-    -moz-transition-duration: 0.4s;
+  font-family: "Segoe UI", "Book Antiqua", Palatino, serif;
+  text-decoration: none;
+  color:black;
+  border:none;
+  cursor:pointer;
+  font-size:20px;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:5px;
+  padding-right:5px;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
 }
 
 .button:hover   {
-    background-color:#999999;
-    color:black;
+  background-color:#999999;
+  color:black;
 }
+
 /* Slideshow styling */
 * {box-sizing:border-box}
 
