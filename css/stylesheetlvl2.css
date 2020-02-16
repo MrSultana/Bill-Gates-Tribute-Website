@@ -1,13 +1,13 @@
 /*This stylesheet contains styling for my lvl 2 programming website*/
-header  {
+.header1  {
   text-align:center;
   font-size:30px;
   font-family:"Segoe UI", "Book Antiqua", Palatino, serif;
 }
-a   {
+.a1   {
   font-family: "Segoe UI", "Book Antiqua", Palatino, serif;
 }
-p   {
+.p1   {
   font-family: "Segoe UI", "Book Antiqua", Palantino, serif;
   font-size:17px;
 }
@@ -20,11 +20,11 @@ p   {
   margin-top: 3%;
   margin-bottom: 2%;
 }
-body    {
+.body    {
   margin:0px;
   padding:0px;
 }
-h2   {
+.h2   {
   font-family: "Segoe UI", "Book Antiqua", Palantino, serif;
   font-size:40px;
 }
